@@ -1,0 +1,42 @@
+.Search {
+    &-box {
+        display: flex;
+        background: #9b28df;
+        width: 40px;
+        border-radius: 25px;
+        padding-left: 10px;
+        transition: all 0.6s ease-in-out;
+        button {
+            border: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 8px 7px 11px 0px;
+            background: #9b28df;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        input {
+            display: none;
+            width: 0;
+            background: transparent;
+            border: none;
+            padding: 8px;
+            outline: transparent;
+            color: #fff;
+            font-size: 1.125rem;
+            &::placeholder {
+                color: inherit;
+                font-size: inherit;
+                opacity: 0.5;
+            }
+        }
+        &._checked {
+            width: 350px;
+            input {
+                display: block;
+                width: 100%;
+            }
+        }
+    }
+}
