@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Разработано с использованием Create React App
 
 https://sergey-la.github.io/myAnime/
 
